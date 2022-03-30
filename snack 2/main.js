@@ -8,15 +8,14 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 const parolaUno = prompt(`type a word`);
 const parolaDue = prompt(`type a word`);
 
-const lunghezzaUno = parolaUno.length
-const lunghezzaDue = parolaDue.length
-
 // Verifca qual'è la parola più lunga 
 
-if (lunghezzaUno < lunghezzaDue) {
-    console.log(`${parolaUno}, ${parolaDue}`)
-} else if (lunghezzaDue < lunghezzaUno) {
-    console.log(`${parolaDue}, ${parolaUno}`);
+if (parolaUno.length < parolaDue.length) {
+    console.log(parolaUno)
+    console.log(parolaDue)
+} else if (parolaDue.length < parolaUno.length) {
+    console.log(parolaDue)
+    console.log(parolaUno)
 } else {
     console.log(`le due parole hanno la stessa lunghezza`)
 }
