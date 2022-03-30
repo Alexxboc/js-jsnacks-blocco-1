@@ -9,16 +9,17 @@ if(number.length < 4) {
     alert(`Attenzione! Non hai inserito un numero di 4 cifre. Ripeti l'operazione`);
 } else {}
 
-// Crea un array dalla stringa di numeri
-const arrayNumber = Array.from(number)
-// console.log(arrayNumber)
+// console.log(number)
+// console.log(number.length)
+// console.log(number[0])
 
 // Dichiaro una varibile per la somma
 let sum = 0;
 // Creo un ciclo per fare la somma
-for(let i = 0; i < arrayNumber.length; i++){
-    console.log(i);
-    sum += arrayNumber[i]
+for(let i = 0; i < number.length; i++){
+    // console.log(i);
+    sum += Number(number[i])
 }
 
-// console.log(sum);
+// Stampo in console la somma dei numeri
+console.log(sum);
