@@ -10,7 +10,7 @@ se è dispari inseriscilo nell’array.
 // Creo una variabile con un array vuoto
 
 let arrayNumbers = []
-console.log(arrayNumbers);
+// console.log(arrayNumbers);
 
 // Creao un ciclo con 6 iterazioni
 for(i = 0; i < 6; i++){
