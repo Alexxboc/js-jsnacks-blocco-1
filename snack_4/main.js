@@ -27,6 +27,7 @@ for(i = 0; i < list.length; i++){
     } else {}
 }
 
+// Stampa il messaggio all'utente
 if(succes) {
     console.log(`${userName} puoi partecipare alla festa`);
 } else {
