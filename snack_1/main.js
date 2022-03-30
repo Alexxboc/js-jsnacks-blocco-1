@@ -12,7 +12,9 @@ const numeroDue = Number(prompt(`Type second number`));
 // Stampa il numero maggiore
 if (numeroUno > numeroDue) {
     console.log(numeroUno);
-} else {
+} else if {
     console.log(numeroDue);
+} else {
+    console.log(`i due numeri sono uguali`)
 }
 
