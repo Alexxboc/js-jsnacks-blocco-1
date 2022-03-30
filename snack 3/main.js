@@ -17,10 +17,4 @@ for (let i = 0; i < 10; i++) {
 //Calcola la somma dei numeri inseriti
     sum += numbers
     console.log(sum);
-    
-
-
-
-
-// 
 }
