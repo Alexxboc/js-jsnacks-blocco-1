@@ -14,7 +14,7 @@ let user_numbers = Number(prompt(`Type a number`));
 arrayNumbers.push(user_numbers)
 
 // Crea un ciclo di numeri
-for(let i = 0; i < arrayNumbers; i++){
+for(let i = 1; i < arrayNumbers; i++){
     console.log(Math.pow(i,3));
 }
 

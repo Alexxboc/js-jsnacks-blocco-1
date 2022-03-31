@@ -24,7 +24,7 @@ for(i = 0; i < list.length; i++){
 // Controlla che il nome sia nella lista
     if(userName === listName) {
         succes = true;
-    } else {}
+    } 
 }
 
 // Stampa il messaggio all'utente

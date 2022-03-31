@@ -21,7 +21,7 @@ for(i = 0; i < 6; i++){
 // Verifica che il numero sia pari
     if(userNumber % 2 != 0){
         arrayNumbers.push(userNumber)
-    } else{}
+    } 
 }
 
 // Inserisci i numero dispari nell'array
