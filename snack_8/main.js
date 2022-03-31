@@ -7,7 +7,7 @@ e calcola la somma di tutte le cifre che compongono il numero.
 const number = prompt(`Scrivi un numero di 4 cifre`);
 if(number.length < 4) {
     alert(`Attenzione! Non hai inserito un numero di 4 cifre. Ripeti l'operazione`);
-} else {}
+} 
 
 // console.log(number)
 // console.log(number.length)
